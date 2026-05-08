@@ -1,16 +1,150 @@
-# React + Vite
+# 🎬 Movie Database App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie database application built with **React** and **Vite** that allows users to browse, search, and explore movies with a clean and responsive user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🎥 Browse popular movies
+- 🔍 Search movies by title
+- ⭐ View movie ratings and details
+- 📱 Responsive design for all devices
+- ⚡ Fast and optimized performance
+- 🎨 Modern and user-friendly UI
+- 🔄 Dynamic rendering using React Hooks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS / Tailwind CSS
+- Movie API (TMDB / OMDb API)
+
+---
+
+## 📂 Project Structure
+
+```bash
+Movie-Database/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│── package.json
+│── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Movie-Database.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd Movie-Database
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 API Setup
+
+This project uses a movie API such as **TMDB** or **OMDb API**.
+
+1. Create an account and get your API key.
+2. Create a `.env` file in the root directory.
+3. Add your API key:
+
+```env
+VITE_API_KEY=your_api_key_here
+```
+
+---
+
+## 📸 Screenshots
+
+Add your project screenshots here.
+
+Example:
+
+```md
+![Movie App Screenshot](./screenshots/home.png)
+```
+
+---
+
+## 🌐 Live Demo
+
+Add your deployed project link here:
+
+```md
+https://your-live-demo-link.com
+```
+
+---
+
+## 📖 Learning Goals
+
+This project was built to practice:
+
+- React fundamentals
+- API integration
+- State management with hooks
+- Responsive web design
+- Component-based architecture
+
+---
+
+## 🔮 Future Improvements
+
+- User authentication
+- Favorite/watchlist feature
+- Movie trailers integration
+- Pagination
+- Dark mode support
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
